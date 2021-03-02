@@ -1,0 +1,12 @@
+input {
+    background: rgb(233, 232, 232) !important;
+}
+
+.tips {
+    background: black;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-left: 6px solid #6d1cac;
+    display: flex;
+    align-items: center;
+}
