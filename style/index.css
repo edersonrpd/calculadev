@@ -1,26 +1,31 @@
 /* ensure all pages have Bootstrap CSS */
-@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
+* {
+    font-family: "Nunito Sans", sans-serif;
+}
 
 .md-container {
-  max-width: 800px;
-  padding-top: 2rem;
+    max-width: 800px;
+    padding-top: 2rem;
 }
 
 .sml-card {
-  width: 22rem;
-  margin: 1rem 0;
+    width: 22rem;
+    margin: 1rem 0;
 }
 
 .cntr-footer {
-  height: 80px;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top: 1px solid #ccc;
+    height: 80px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ccc;
 }
 
 .sml-logo {
-  height: 1em;
-  margin-left: 10px;
+    height: 1em;
+    margin-left: 10px;
 }
